@@ -25,3 +25,23 @@ The data cleaning process involved the following activities:
 4. **Removing Duplicates**: Identified and removed duplicate entries, preventing potential bias in analysis and ensuring accuracy in statistical calculations.
 
 5. **Formatting**: Applied consistent formatting to data fields such as dates, currency, and text, enhancing readability and facilitating accurate analysis.
+
+## Data Cleaning Comparison
+
+### Before Data Cleaning (Uncleaned Data)
+
+![Uncleaned Data Screenshot](D:\Github\Movies\Uncleaned.png)
+
+The snapshot of the uncleaned data reveals inconsistencies such as missing values in the 'budget' column, irregular formatting in the 'genres' column with nested dictionaries, and the presence of unnecessary columns like 'belongs_to_collection' and 'homepage'. Additionally, the 'revenue' column contains values represented with different formats, such as '-'. Overall, the data lacks uniformity and standardization, making it challenging to analyze effectively.
+
+### After Data Cleaning (Cleaned Data)
+
+![Cleaned Data Screenshot](D:\Github\Movies\Cleaned.png)
+
+In contrast, the cleaned data snapshot showcases a standardized and structured dataset. Notable improvements include:
+- Filling empty cells with appropriate placeholders like 'NA' in the 'budget' column.
+- Unpacking nested dictionaries and removing unnecessary columns like 'belongs_to_collection' and 'homepage'.
+- Consistent formatting of numeric values in the 'revenue' column.
+- Enhanced readability and usability for analysis purposes.
+
+The cleaned data is now ready for further analysis and insights extraction, providing a reliable foundation for decision-making processes.
