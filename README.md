@@ -8,6 +8,10 @@ This document outlines the data cleaning process for the movies dataset using Ex
 
 The movies dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset). It contains metadata for all 45,000 movies listed in the Full MovieLens Dataset, released on or before July 2017. 
 
+Additionally, you can directly access the Excel file used for this project from the repository:
+
+- [Movies Dataset Excel File](Movies.xlsx)
+
 ## Tools
 
 The data cleaning process was conducted using Microsoft Excel.
