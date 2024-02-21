@@ -30,13 +30,13 @@ The data cleaning process involved the following activities:
 
 ### Before Data Cleaning (Uncleaned Data)
 
-![Uncleaned Data Screenshot](Cleaned.png)
+![Uncleaned Data Screenshot](Uncleaned.png)
 
 The snapshot of the uncleaned data reveals inconsistencies such as missing values in the 'budget' column, irregular formatting in the 'genres' column with nested dictionaries, and the presence of unnecessary columns like 'belongs_to_collection' and 'homepage'. Additionally, the 'revenue' column contains values represented with different formats, such as '-'. Overall, the data lacks uniformity and standardization, making it challenging to analyze effectively.
 
 ### After Data Cleaning (Cleaned Data)
 
-![Cleaned Data Screenshot](D:\Github\Movies\Cleaned.png)
+![Cleaned Data Screenshot](Cleaned.png)
 
 In contrast, the cleaned data snapshot showcases a standardized and structured dataset. Notable improvements include:
 - Filling empty cells with appropriate placeholders like 'NA' in the 'budget' column.
