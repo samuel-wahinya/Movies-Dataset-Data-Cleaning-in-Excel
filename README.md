@@ -30,7 +30,7 @@ The data cleaning process involved the following activities:
 
 ### Before Data Cleaning (Uncleaned Data)
 
-![Uncleaned Data Screenshot](D:\Github\Movies\Uncleaned.png)
+![Uncleaned Data Screenshot](Cleaned.png)
 
 The snapshot of the uncleaned data reveals inconsistencies such as missing values in the 'budget' column, irregular formatting in the 'genres' column with nested dictionaries, and the presence of unnecessary columns like 'belongs_to_collection' and 'homepage'. Additionally, the 'revenue' column contains values represented with different formats, such as '-'. Overall, the data lacks uniformity and standardization, making it challenging to analyze effectively.
 
